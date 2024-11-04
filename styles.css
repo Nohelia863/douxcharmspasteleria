@@ -1,0 +1,162 @@
+/* styles.css */
+
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif; /* Cambiado a Poppins */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e1e1df; /* Color de fondo blanco suave con verde pastel */
+    padding: 20px;
+    border-bottom: 2px solid #d1c5a5; /* Borde inferior suave */
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between; /* Para separar el logo y los iconos */
+}
+
+.logo {
+    width: 150px; /* Ajusta el tamaño del logo */
+}
+
+.nav-icons {
+    display: flex; /* Flexbox para iconos */
+}
+
+.icon {
+    width: 25px; /* Ajusta el tamaño del icono */
+    height: auto;
+    margin-left: 15px; /* Espaciado entre íconos */
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+/* Navegación principal */
+.main-nav {
+    margin-top: 10px;
+}
+
+.main-nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Sección de video */
+.video-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilo general para la sección de productos */
+#productos {
+    padding: 40px 20px; /* Espaciado superior e inferior */
+    background-color: #f9f9f9; /* Color de fondo suave */
+}
+
+/* Estilo para el título de productos */
+#productos h2 {
+    text-align: center; /* Centrar el título */
+    font-size: 2.5em; /* Tamaño de fuente grande */
+    color: #444; /* Color del texto más suave */
+    margin-bottom: 30px; /* Espacio debajo del título */
+}
+
+/* Contenedor de productos */
+.productos {
+    display: flex; /* Usar flexbox para organizar productos en filas */
+    flex-wrap: wrap; /* Permitir que los productos se ajusten a múltiples filas */
+    justify-content: center; /* Centrar los productos */
+}
+
+/* Estilo para cada producto */
+.producto {
+    border: 2px solid #f8f8f0; /* Borde con color del fondo del encabezado */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    margin: 15px; /* Margen alrededor del producto */
+    background-color: white; /* Color de fondo blanco */
+    transition: transform 0.2s; /* Transición suave para el efecto hover */
+    width: 250px; /* Ancho fijo para los productos */
+}
+
+/* Efecto hover para productos */
+.producto:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
+
+/* Estilo para las imágenes de los productos */
+.producto img {
+    width: 100%; /* Ancho completo del contenedor */
+    border-radius: 5px; /* Bordes redondeados en las imágenes */
+}
+
+/* Estilo para los nombres de los productos */
+.producto h3 {
+    font-size: 1.5em; /* Tamaño de fuente del nombre */
+    color: #555; /* Color del texto más suave */
+    margin: 10px 0; /* Espacio arriba y abajo del nombre */
+}
+
+/* Estilo para las descripciones de los productos */
+.producto p {
+    font-size: 1em; /* Tamaño de fuente de la descripción */
+    color: #777; /* Color más claro para la descripción */
+    margin: 10px 0; /* Espacio arriba y abajo de la descripción */
+}
+
+/* Sección de Nosotros */
+#nosotros {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Sección de Contacto */
+#contacto {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.mapa {
+    margin-top: 20px;
+}
+
+/* Estilo de pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: hsl(43, 8%, 83%); /* Color de fondo */
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer img {
+    width: 25px; /* Ajusta el tamaño de los iconos de redes sociales */
+    height: auto;
+}
